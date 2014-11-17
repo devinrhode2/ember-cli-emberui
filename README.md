@@ -1,25 +1,31 @@
 # Ember-cli-emberui
 
-This README outlines the details of collaborating on this Ember addon.
+Adds [emberui/emberui](https://github.com/emberui/emberui) to your ember-cli app.
 
-## Installation
+## Usage
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+Add the following entry to your package.json:
 
-## Running
+```
+"ember-cli-emberui": "rebaselabs/ember-cli-emberui"
+```
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+then:
 
-## Running Tests
+```
+npm install && ember g ember-cli-emberui
+```
 
-* `ember test`
-* `ember test --server`
+Now you can access `emberui` by either importing explicitly:
 
-## Building
+```
+import 'emberui'
+```
 
-* `ember build`
+or importing specific modules:
 
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+```
+import { EuiInputTemplate, EuiInputComponent } from 'emberui'
+```
+
+And all the componenents should be available for use in your ember-cli app.
