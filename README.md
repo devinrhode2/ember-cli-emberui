@@ -2,18 +2,12 @@
 
 Adds [emberui/emberui](https://github.com/emberui/emberui) to your ember-cli app.
 
-## Usage
+## Install
 
 Add the following entry to your package.json:
 
 ```
-"ember-cli-emberui": "rebaselabs/ember-cli-emberui"
-```
-
-then:
-
-```
-npm install && ember g ember-cli-emberui
+npm install rebaselabs/ember-cli-emberui --save && ember g ember-cli-emberui
 ```
 
 Now you can access `emberui` by either importing explicitly:
